@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Программа “Шашки” предназначена для предоставления пользователю возможности играть в игру “Шашки” против компьютера или другого игрока на одном компьютере по следующим правилам: 
+1. Шашечная доска состоит из 64 одинаковых квадратов, попеременно светлых (белых) и темных (коричневых) полей.
+2. Игра ведется только по темным полям. Шашечная доска располагается между партнерами таким образом, чтобы слева от играющего находилось темное угловое поле.
+3. Игрокам перед началом игры предоставляется по 12 шашек: одному - белых, другому - черных. Шашки расставляются на черных полях первых трех горизонтальных рядов с каждой стороны.
+4. Ходом в партии считается передвижение шашки с одного поля доски на другое. Первый ход всегда делает игрок, играющий белыми. Игроки поочередно делают по одному ходу до тех пор, пока игра не закончится.
+5. Шашки разделяются на простые и дамки, но в начальном положении все шашки - простые.
+6. Простая ходит только вперед на соседнее поле по диагонали.
+7. Если в процессе игры шашка достигает одного из полей последнего, восьмого (считая от себя) горизонтального ряда, она превращается в дамку, получая новые права. На доске у каждой стороны одновременно может быть по несколько дамок.
+8. Дамка, в отличие от простой шашки, ходит на любое из свободных полей по диагонали в любом направлении, но становиться может, как и простая, лишь на не занятые другими шашками поля, причем через свои шашки она перескакивать не может.
+9. Ход считается сделанным, если шашка переместилась на другую клетку и не может продолжить ход.
+10. Если игрок, за которым очередь хода, прикоснется к своей шашке, которой можно сделать ход, он обязан ею пойти. Прикосновение к своей шашке, у которой не оказывается возможного по правилам игры хода, не влечет за собой никаких последствий, и играющий свободен сделать любой возможный ход.
+11. Если простая шашка находится на одной диагонали рядом с шашкой соперника, за которой имеется свободное поле, она должна быть перенесена через эту шашку на свободное поле. Шашка соперника в этом случае снимается с доски.
+12. Если дамка находится на одной диагонали рядом или на расстоянии от шашки соперника, за которой имеется одно или несколько свободных полей, она должна быть перенесена через эту шашку на любое свободное поле. Шашка соперника в этом случае снимается с доски.
+13. Взятие шашки соперника является обязательным и производится как вперед, так и назад. Взятие считается одним сыгранным ходом. Взятие своих шашек запрещается.
+14. Если в процессе взятия шашкой она вновь оказывается на одной диагонали рядом с другой шашкой соперника, за которой имеется свободное поле, она должна быть перенесена через вторую, третью и т.д. шашку.
+15. Если в процессе взятия дамкой она снова оказывается на одной диагонали рядом или на расстоянии от шашки соперника, за которой находится одно или несколько свободных полей, дамка должна быть обязательно перенесена через вторую, третью и т.д. шашку и занять любое свободное поле на той же диагонали за последней взятой шашкой.
+16. После завершения взятия согласно пункта 14 и 15 взятые шашки соперника затем снимаются с доски в порядке их взятия. Это называется последовательным взятием.
+17. В процессе последовательного взятия запрещается переносить шашки или дамки через собственные.
+18. При возможности взятия по двум и более направлениям дамкой или шашкой выбор, вне зависимости от количества или качества снимаемых шашек (дамки или простые), предоставляется берущему.
+19. Если простая при взятии достигает последнего (восьмого от себя) горизонтального ряда и если ей предоставляется возможность дальнейшего взятия шашек, то она обязана тем же ходом продолжать бой, но уже на правах дамки.
+20. Если же простая достигает последнего горизонтального ряда без взятия и ей после этого предоставляется возможность боя, то она должна бить (если эта возможность сохранится) лишь следующим ходом на правах дамки.
+21. Выигравшим партию признается тот, кто первым достигнет положения, при котором его соперник:
+- признав свою позицию проигранной, заявил о том, что сдается;
+- не сможет сделать очередной ход;
+- не имеет ни одной шашки.
+22. Партия считается закончившейся вничью по взаимному согласию оппонентов (один из участников предлагает ничью, а другой ее принимает это предложение).</value>
+  </data>
+</root>
